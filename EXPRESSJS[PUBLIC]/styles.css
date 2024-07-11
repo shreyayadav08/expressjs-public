@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  input, button {
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #user-list, #user-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    margin-top: 10px;
+  }
+  
